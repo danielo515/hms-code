@@ -9,7 +9,8 @@ public class RestClientConfiguration {
 
 	@Bean(name = "readClient")
 	public RestClient getReadRestClient() {
-		return new RestClient("http://localhost:8080");
+
+		return new RestClient("http://ari:8080");
 	}
 
 }

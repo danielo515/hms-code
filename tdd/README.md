@@ -20,7 +20,10 @@ mvn clean test
 
 java -jar target/ari-0.1.0.jar
 
-####Acceptance Test
 
+###Acceptance Testo
+
+* For run in local environment Add in /etc/hostsoo
+  * 127.0.0.1  ari
 * cd acceptance-test
 * mvn test
